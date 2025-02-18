@@ -31,7 +31,7 @@ public class Main {
 		
 		h = sec / 3600;
 		m = (sec % 3600) / 60;
-	    s = sec % 60;
+	        s = sec % 60;
 	    
 		System.out.printf("%.2f Hours | %.2f Minutes | %.2f Seconds", h, m, s);
 		
